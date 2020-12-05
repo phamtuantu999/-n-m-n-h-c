@@ -44,7 +44,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 80px 100px;
+    padding: 40px 60px;
 }
 .col-2{
     flex-basis: 50%;
@@ -121,4 +121,21 @@ td{
     font-size: 20px;
     padding-bottom: 10px ;
 }
-
+.footer-col{
+    font-weight: bold;
+}
+.dang-ky{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 100px 300px;
+}
+.dang-ky h4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dang-ky input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

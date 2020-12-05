@@ -4,6 +4,20 @@
         <meta charset="UTF-8">
         <title>Phụ kiện thể thao Tuấn Tú</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/JavaScript">
+
+            function opentab() {
+                if(myform.name.value!="" && myform.mail.value!=""&&myform.mk.value!=""){
+                    var mywindow=window.open("index.html","_self");
+                }
+                else{
+                    var myWindow = window.open("acount.html");
+                    myWindow.document.write("<p>Hãy điền đầy đủ thông tin.</p>");
+                }
+                
+                
+            }
+        </script>
     </head>
     <body>
         <div class="header" style="background: radial-gradient(#fff,#ffd6d6);">
@@ -15,14 +29,43 @@
                     <ul>
                         <li><a href="index.html">Trang chủ</a></li>
                         <li><a href="product.html">Sản phẩm</a></li>
-                        <li><a href="">Giỏ hàng</a></li>
+                        <li><a href="buy.html">Giỏ hàng</a></li>
                         <li><a href="acount.html">Tài khoản</a></li>
-                        <li><a href="">About</a></li>
                     </ul>
                 </nav>
             </div>
+            <div class="dang-ky">
+                <form name="myform">
+                  <h4>Nhập tên: </h4>
+                  <input type="text" name="name" size="28" >
+                  <h4>Nhập địa chỉ eamil: </h4>
+                  <input type="text" name="mail" size="28" >
+                  <h4>Nhập mật khẩu: </h4>
+                  <input type="text" name="mk" size="28" >
+                  <br>
+                  
+                  <input class="btn" type="button" value="Đăng nhập" onclick="opentab()">
+                </form>
+                
+                
+            </div>
         </div>
-        
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <p>Quần áo, phụ kiện thể thao Tuấn Tú <br>
+                           Địa chỉ:33 sông Nhuệ, Cổ Nhuế <br>
+                           Điện thoại: 033 7910 462 <br>
+                           Email: phamtuantu2710@gmail.com
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <p>Copyright (c) 2020 Phạm Tuấn Tú</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </body>
 </html> 
