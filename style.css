@@ -26,6 +26,9 @@ nav ul li{
 a{
     text-decoration: none;
     color: #555;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
 }
 p{
     color: #555;
@@ -41,12 +44,12 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px;
+    padding: 80px 100px;
 }
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
-    padding: 20px;
+
 }
 .col-2 img{
     max-width: 100%;
@@ -65,7 +68,57 @@ p{
     background: #ff523b;
     color: #fff;
     padding: 8px 30px;
-    margin: 30px 0;
+    margin: 20px 0;
     border-radius: 30px;
     text-align: center;
 }
+.col-3{
+    flex-basis: 30%;
+
+    margin-bottom: 30px;
+
+}
+.col-3:hover{
+    border: 1px solid #777;
+}
+.col-3 img{
+    width: 100%;
+    align-items: center;
+}
+.col-3 .info{
+    text-align: center;
+    font-size: 20px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 100px;
+}
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-1 img{
+    max-width: 70%;
+    padding: 50px 0;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: lightsteelblue;
+}
+td{
+    height: 10px;
+    width: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.col-1 p{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px ;
+}
+
